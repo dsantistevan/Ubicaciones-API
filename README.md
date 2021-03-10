@@ -26,13 +26,22 @@ a. Consultar ubicaciones
         - Permite extraer la información importante de la base de datos al front end
 
 b. Consultar 1 usuario
-    ruta: localhost:3000/ubicacion/(id)
+    ruta: ```localhost:3000/ubicacion/(id)```
+    
+    
     Parámetros:
+        
         id: identificador de la ubicación seleccionada
+    
+    
     Estructura: JSON que contiene la latitud, la longitud, el nombre de usuario y el id del usuario que se solicita
+    
+    
     Función: 
-        - Permite mostrar en el mapa su ubicación por su latitud y longitud.
-        - Se incluye el nombre de usuario para mostrarlo al hacer click en el marcador
+
+    - Permite mostrar en el mapa su ubicación por su latitud y longitud.
+
+    - Se incluye el nombre de usuario para mostrarlo al hacer click en el marcador
 
 
 
@@ -48,3 +57,6 @@ Puede seleccionar un usuario de la lista desplegable, y al existir un cambio el 
 en la ubicación del usuario seleccionado.
 
 Se puede hacer click en el marcador para ver más información del usuario.
+
+# Captura
+![Captura de pantalla](Captura.png)
