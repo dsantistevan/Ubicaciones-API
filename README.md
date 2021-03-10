@@ -20,28 +20,24 @@ De caso contrario, el servidor no podrá funcionar correctamente.
 El Backend tiene dos rutas principales que ejecutan las dos acciones esenciales del servidor
 
 a. Consultar ubicaciones
-    ruta: ```localhost:3000/ubicacion```
-    Estructura: JSON similar al archivo mapa_datos.json
-    Función: 
-        - Permite extraer la información importante de la base de datos al front end
+    
+- ruta: ```localhost:3000/ubicacion```
+- Estructura: JSON similar al archivo mapa_datos.json
+- Función: Permite extraer la información importante de la base de datos al front end
 
 b. Consultar 1 usuario
-    ruta: ```localhost:3000/ubicacion/(id)```
+- ruta: ```localhost:3000/ubicacion/(id)```
     
     
-    Parámetros:
+- Parámetros:    
+    - id: identificador de la ubicación seleccionada
         
-        id: identificador de la ubicación seleccionada
+- Estructura: JSON que contiene la latitud, la longitud, el nombre de usuario y el id del usuario que se solicita
     
     
-    Estructura: JSON que contiene la latitud, la longitud, el nombre de usuario y el id del usuario que se solicita
-    
-    
-    Función: 
+- Función: Permite mostrar en el mapa su ubicación por su latitud y longitud.
 
-    - Permite mostrar en el mapa su ubicación por su latitud y longitud.
-
-    - Se incluye el nombre de usuario para mostrarlo al hacer click en el marcador
+- Se incluye el nombre de usuario para mostrarlo al hacer click en el marcador
 
 
 
